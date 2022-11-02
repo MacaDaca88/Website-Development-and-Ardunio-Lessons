@@ -21,6 +21,7 @@ h1 {
     background-position:50px;
     background-size: 15px;
     font-size: 4em;
+    text-align: center;
     margin-top: 0em;
     margin-bottom: 0em;
     margin-left: 0;
@@ -83,11 +84,27 @@ h2 {
         margin-left: 0;
         margin-right: 0;
         border: 4px solid black;
-        margin: 0px;
+        margin: 40px;
         padding: 0px;
         font-weight: bold;
         font-style: italic;
         color: white;
 
+
+     }
+     .topnav{
+        
+        font-size: 4em;
+        text-align: center;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        margin-left: 0;
+        margin-right: 0;
+        border: 4px double black;
+        border-radius:5px;
+        margin: 500px;
+        padding: 1px;
+        font-weight: bold;
+        font-style: italic;
 
      }
