@@ -17,6 +17,9 @@ body {
 }
 h1 {
     display: center;
+    background-color: ;
+    background-position:50px;
+    background-size: 15px;
     font-size: 4em;
     margin-top: 0em;
     margin-bottom: 0em;
@@ -85,3 +88,6 @@ h2 {
         font-weight: bold;
         font-style: italic;
         color: white;
+
+
+     }
