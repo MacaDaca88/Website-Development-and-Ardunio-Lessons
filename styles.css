@@ -11,15 +11,19 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    border: 10px double red;
+    margin: 2px;
+    padding: 5px;
 }
 h1 {
-    display: table;
+    display: center;
     font-size: 4em;
     margin-top: 0em;
     margin-bottom: 0em;
     margin-left: 0;
     margin-right: 0;
-    border: 4px solid black;
+    border: 4px double black;
+    border-radius:15px;
     margin: 1px;
     padding: 1px;
     font-weight: bold;
@@ -29,6 +33,7 @@ h2 {
         display: block;
         background-color: red;
         background-position:50px;
+        background-size: 15px;
         font-size: 3em;
         text-align: center;
         margin-top: 0em;
@@ -36,16 +41,19 @@ h2 {
         margin-left: 0;
         margin-right: 0;
         border: 4px solid black;
+        border-radius:65px;
         margin: 0px;
         padding: 0px;
         font-weight: bold;
         font-style: italic;
         color: white;
+        text-transform: capitalize;
      }
      h3 {
         display: block;
         background-color: pink;
         background-position:50px;
+        opacity: 0.3;
         font-size: 3em;
         text-align: center;
         margin-top: 0em;
@@ -58,11 +66,13 @@ h2 {
         font-weight: bold;
         font-style: italic;
         color: white;
+        text-transform: capitalize;
      }
      h4 {
         display: block;
         background-color: navy;
         background-position:50px;
+        opacity: 0.3;
         font-size: 3em;
         text-align: center;
         margin-top: 0em;
@@ -75,5 +85,3 @@ h2 {
         font-weight: bold;
         font-style: italic;
         color: white;
-     }
-
