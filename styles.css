@@ -1,7 +1,63 @@
 /* Place your CSS styles in this file */
 
-h1 {
+h6 {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
 }
+body {
+    background-image: url("White Charger.jpg");
+    background-color: green;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    display: table;
+    font-size: 4em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    border: 4px solid black;
+    margin: 1px;
+    padding: 1px;
+    font-weight: bold;
+    font-style: italic;
+}   
+h2 {
+        display: block;
+        background-color: red;
+        background-position:50px;
+        font-size: 3em;
+        text-align: center;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        margin-left: 0;
+        margin-right: 0;
+        border: 4px solid black;
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+        font-style: italic;
+        color: white;
+     }
+     h3 {
+        display: block;
+        background-color: pink;
+        background-position:50px;
+        font-size: 3em;
+        text-align: center;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        margin-left: 0;
+        margin-right: 0;
+        border: 4px solid black;
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+        font-style: italic;
+        color: white;
+     }
+
+
