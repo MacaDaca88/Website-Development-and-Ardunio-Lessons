@@ -1,47 +1,26 @@
 /* Place your CSS styles in this file */
 .topnav{
-   background-attachment:top;
-   background-color:white;
-   background-position:top;
-   background-size: 5%;
+   background-attachment:auto;
+   background-color:blue;
+   background-position:auto;
+   background-size: auto;
    font-size: 1px;
-   text-align: center;
+   text-align: left;
    margin-top: 0%;
    margin-bottom: 0%;
    margin-left: 0;
    margin-right: 0;
    border: 4px double black;
    border-radius:50px;
-   width: 40%;
+   width: 50%;
    height: 5%;
-   margin: 0% 10%;
+   margin: 5% 10%;
    padding: 5% 5%;
    font-weight: bold;
    font-style: italic;
 
 }
-.topnav2{
-   background-attachment:top;
 
-   background-color:yellow;
-   background-position:top;
-   background-size: 5%;
-   font-size: 1px;
-   text-align: center;
-   margin-top: 0%;
-   margin-bottom: 0%;
-   margin-left: 0;
-   margin-right: 0;
-   border: 4px double pink;
-   border-radius:50px;
-   width: 40%;
-   height: 5%;
-   margin: 0% 10%;
-   padding: 5% 5%;
-   font-weight: bold;
-   font-style: italic;
-
-}
 body {
     background-image: url("images/background/White Charger.jpg");
     background-color: green;
