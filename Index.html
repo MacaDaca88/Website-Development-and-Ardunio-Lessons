@@ -35,7 +35,7 @@
       }
     </style>
         </head>
-        <link rel="icon" href="images/icons/gifs/Bulb-Loading-1.gif">
+        <link rel="icon" href="./images/icons/Bulb-Loading-1.gif">
 <link rel="stylesheet" type="text/css"
 href="styles.css">
     </head>
@@ -43,7 +43,7 @@ href="styles.css">
   <title>H3LL</title>
     <div class="topnav">
         <a style="   padding:10px; border-radius:50px;background-color: green;font-size: 30px; color: black;" href="#https://macadaca88.000webhostapp.com/6-2">Home</a>
-        <a  style=" padding:10px; border-radius:50px;background-color: green;font-size: 30px; color: black;" href="C:\Users\MacaD\OneDrive\Documents\GitHub\Website-Development-and-Ardunio-Lessons">
+        <a  style=" padding:10px; border-radius:50px;background-color: green;font-size: 30px; color: black;" href="./p2.html">
           Page 2</a>  
         <a style="  padding:10px;  border-radius:50px;background-color: green;font-size: 30px; color: black;" href="https://www.google.com/search?q=Google&oq=Google&aqs=chrome..69i57j69i65j69i60l2j69i65j69i60j35i39j0i273i433l2j46i131i199i433i465i512.5393j0j4&client=ms-android-samsung-gj-rev1&sourceid=chrome-mobile&ie=UTF-8">About</a>
         <a style="  padding:10px;  border-radius:50px;background-color: green;font-size: 30px; color: black;" href="https://www.facebook.com/profile.php?id=100006658605536">Contact</a>
@@ -53,7 +53,8 @@ href="styles.css">
         <button>submit</button>
       </div>
       
-    <h1>Welcome To H3LL><img src="images/icons/gifs/loading.gif"></h1>
+    <h1>Welcome To H3LL></h1>
+    <img style="display: block; background-position: center;" src="./images/backgrounds/loading.gif">
     <p style="font-size: 20px; color: white; text-align: center;">This website is built for shits and giggles and to flex how good i can be 
         when i put my mind to somthing i havnt done any HTML editing for over 20yrs so this is going to be fun and hopefully my kids Ayla especially is taking great interest so let the fun begin.</p>
     <p style="display: table;font-size: 4em;margin-top: 0em;margin-bottom: 0em;margin-left: 0;margin-right: 1000;margin: 1px;padding: 1px;font-weight: bold;font-style: bold;"> &#128585;&#128584;&#128586;</p>
@@ -63,7 +64,7 @@ href="styles.css">
     <p> All credit goes to w3schools.com your website is awsome in learning how to do this so hopefully my kids will
         try and learn it instead of playing games.</p>
         </body>
-        <h2></h2> this is my web links: </h2>
+        <h2> this is my web links: </h2>
         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 <div id="id01" class="modal">
   <form class="modal-content animate" action="/action_page.php" method="post">
@@ -99,15 +100,57 @@ href="styles.css">
       }
   }
   </script>
+  <h2>Modal Signup Form</h2>
+
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+  
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="container">
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+  
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+  
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
         <br>
-        <button type="createive">
+        <button type="submit">
         <a href="https://github.com/MacaDaca88"><b>MacaDaca88 GitHub</b></a>
         </button>
         <br>
         <a href="https://www.facebook.com/profile.php?id=100006658605536"><B>MacaDaca88 FaceBook</B></a>
-        <br>
-        <p style="text-decoration:underline; font-size: 80px;">this is a test</p>
-
             <br>
             <br>
 <form id="myForm" action="/action_page.php">
@@ -117,23 +160,20 @@ href="styles.css">
 </form>
 
           <br>     
-    <h3>This is for:</h3>
-    <p style="font-size:100px;">&#128375; </p>
-    <br>
-    <h4>This is for: </h4>
+    
     <a href="https://www.google.com/search?q=cowpoo&sxsrf=ALiCzsbQkRM0H5M7xs4uyKae15GYZj2exQ:1667375874819&source=lnms&tbm=isch&sa=X&ved=2ahUKEwie0eaVg4_7AhUG6jgGHdt_BcIQ_AUoAXoECAIQAw&biw=1680&bih=907&dpr=1#imgrc=dpptY_QIkZ5_bM" style="font-size: 100px; text-align:center; display:block;">
         <p>&#128169; </p>
     </a>
     <a href="https://www.google.com/search?q=Google&oq=Google&aqs=chrome..69i57j69i65j69i60l2j69i65j69i60j35i39j0i273i433l2j46i131i199i433i465i512.5393j0j4&client=ms-android-samsung-gj-rev1&sourceid=chrome-mobile&ie=UTF-8">
-        <img src="images/" alt="Life meme">
+        <img src="./images/memes/Life.jpg" alt="Life meme">
         </a>
         <br>
         <br><br><br>
         <b>Created By King MacaDaca88 </br>
-        <b style="font-size:100px">&#127798; &#127801; &#128128;</b> <br>
-        <B style="font-size:50px">"@420.com"</B>
+        <b style="font-size:10px">&#127798; &#127801; &#128128;</b> <br>
+        <B style="font-size:30px">"@420.com"</B>
         <br>
-				<a href="https://pulzarfm.co.nz" class="brand-logo qt-logo-text" style="font-size: 50px; text-align:center; display:block;">
+				<a href="https://pulzarfm.co.nz" class="brand-logo qt-logo-text" style="font-size: 20px; text-align:center;">
 					100.9 Pulzar FM				</a>
    <div>
         
@@ -143,7 +183,7 @@ href="styles.css">
 </div>
 <body>
   <div>
-  <a href="https://www.xvideos.com/">
+  <a href="./my_pics.html">
     <b  style= "background-size: 20px; padding: 5px 20px;">
   <button class="button">Click Me &#128286;</button>
   </style>
