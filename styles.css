@@ -1,10 +1,27 @@
 /* Place your CSS styles in this file */
+.topnav{
+   background-attachment:center;
+   display:center;
+   background-color:white;
+   background-position:10px;
+   background-size: 10px;
+   font-size: 1px;
+   text-align: center;
+   margin-top: 0em;
+   margin-bottom: 0em;
+   margin-left: 0;
+   margin-right: 0;
+   border: 4px double black;
+   border-radius:50px;
+   width: 25%;
+   height: auto;
+   margin: 800px;
+   padding: 0px 10px;
+   font-weight: bold;
+   font-style: italic;
 
-h6 {
-    text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: normal;
 }
+
 body {
     background-image: url("images/background/White Charger.jpg");
     background-color: green;
@@ -17,7 +34,7 @@ body {
 }
 h1 {
     display: center;
-    background-color: ;
+    background-color: none;
     background-position:50px;
     background-size: 15px;
     font-size: 4em;
@@ -92,19 +109,15 @@ h2 {
 
 
      }
-     .topnav{
-        
-        font-size: 4em;
-        text-align: center;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        margin-left: 0;
-        margin-right: 0;
-        border: 4px double black;
-        border-radius:5px;
-        margin: 500px;
-        padding: 1px;
-        font-weight: bold;
-        font-style: italic;
-
+     h6 {
+      text-align: center;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: normal;
      }
+  button {
+
+   background-color:"white; color: black; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 10%; border-radius: 50%;"} 
+   
+   button:hover {
+      opacity: 0.8;}
+
