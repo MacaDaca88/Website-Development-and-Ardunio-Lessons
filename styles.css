@@ -1,22 +1,22 @@
 /* Place your CSS styles in this file */
 .topnav{
    background-attachment:center;
-   display:center;
+
    background-color:white;
-   background-position:10px;
-   background-size: 10px;
+   background-position:10%;
+   background-size: 5%;
    font-size: 1px;
    text-align: center;
-   margin-top: 0em;
-   margin-bottom: 0em;
+   margin-top: 0%;
+   margin-bottom: 0%;
    margin-left: 0;
    margin-right: 0;
    border: 4px double black;
    border-radius:50px;
-   width: 25%;
-   height: auto;
-   margin: 800px;
-   padding: 0px 10px;
+   width: 40%;
+   height: 5%;
+   margin: 0% 10%;
+   padding: 5% 5%;
    font-weight: bold;
    font-style: italic;
 
@@ -27,16 +27,15 @@ body {
     background-color: green;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     border: 10px double red;
-    margin: 2px;
-    padding: 5px;
+    margin: 0%;
+    padding: 5%;
 }
 h1 {
     display: center;
     background-color: none;
-    background-position:50px;
-    background-size: 15px;
+    background-position:center;
     font-size: 4em;
     text-align: center;
     margin-top: 0em;
@@ -44,9 +43,9 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     border: 4px double black;
-    border-radius:15px;
-    margin: 1px;
-    padding: 1px;
+    border-radius:15%;
+    margin: 1%;
+    padding: 1%;
     font-weight: bold;
     font-style: italic;
 }   
@@ -69,6 +68,7 @@ h2 {
         font-style: italic;
         color: white;
         text-transform: capitalize;
+       opacity:0.9;
      }
      h3 {
         display: block;
@@ -116,8 +116,10 @@ h2 {
      }
   button {
 
-   background-color:"white; color: black; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 10%; border-radius: 50%;"} 
+   background-color:white; color: black; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 10%; border-radius: 30%;
+} 
    
    button:hover {
-      opacity: 0.8;}
+      opacity: 0.3; 
+   }
 
