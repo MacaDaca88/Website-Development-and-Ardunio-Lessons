@@ -23,9 +23,8 @@ body {
     background-image: url("");
     background-color: black;
     background-repeat: no-repeat;
-    background-attachment:local;
+    background-attachment:fixed;
     background-size: 100%;
-    background-clip: content-box;
     border: 10px double red;
     border-radius: 20%;
     margin: 0%;
@@ -39,7 +38,7 @@ body {
 
 /* Style the images inside the grid */
 .column img {
-  opacity: 0.2; 
+  opacity: 0.5; 
   cursor: pointer; 
   size: 5%;
 }
@@ -103,16 +102,16 @@ body {
   <div class="column">
     <img src="" alt="Mountains" style="width:100%" onclick="myFunction(this);">
   </div>
-   <div class="gallery-item">
+   <div class="column">
     <img src="./images/My Projects/Work_pics/20220718_115318.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
   </div>
-  <div class="gallery-item">
+  <div class="column">
     <img src="./images/My Projects/Work_pics/20220713_153633.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
   </div>
-   <div class="gallery-item">
+   <div class="column">
     <img src="./images/My Projects/Work_pics/20220517_124746.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
   </div>
-   <div class="gallery-item">
+   <div class="column">
     <img src="./images/My Projects/Work_pics/20220504_115336.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
   </div>
 </div>

@@ -1,7 +1,7 @@
 /* Place your CSS styles in this file */
 .topnav{
    background-attachment:auto;
-   background-color:blue;
+   background-color:white;
    background-position:auto;
    background-size: auto;
    font-size: 1px;
@@ -23,6 +23,7 @@
 
 body {
     background-image: url("images/background/White Charger.jpg");
+    background-size: auto;
     background-color: green;
     background-repeat: no-repeat;
     background-attachment:local;
@@ -113,16 +114,8 @@ h2 {
       font-family: "Source Sans Pro", sans-serif;
       font-weight: normal;
      }
-  button {
-
-   background-color:white; color: black; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 10%; border-radius: 30%;
-} 
-   
-   button:hover {
-      opacity: 0.3; 
-   }
-
-
+  button { background-color:white; color: black; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 10%; border-radius: 30%;}  
+   button:hover {   opacity: 0.3; }
    * {
      box-sizing: border-box;
    }
