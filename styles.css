@@ -1,9 +1,9 @@
 .topnav {
-   background-attachment: auto;
+   background-attachment: fixed;
    background-color: white;
-   background-position: auto;
+   background-position: cover;
    background-size: auto;
-   font-size: 1px;
+   font-size: 10px;
    text-align: left;
    margin-top: 0%;
    margin-bottom: 0%;
@@ -11,9 +11,9 @@
    margin-right: 0;
    border: 4px double black;
    border-radius: 50px;
-   width: 50%;
+   width: 100%;
    height: 5%;
-   margin: 5% 10%;
+   margin: 0% 0%;
    padding: 5% 5%;
    font-weight: bold;
    font-style: italic;
