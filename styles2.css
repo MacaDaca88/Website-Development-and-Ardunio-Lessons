@@ -1,10 +1,10 @@
 /* Place your CSS styles in this file */
 .topnav {
   background-attachment: fixed;
-  background-image: url("images/icons/gifs/fire-15.gif");
+  background-image: url("./images/icons/gifs/fire-51.webp");
   background-color: white;
   background-position: cover;
-  background-size: cover;
+  background-size: contain;
   font-size: 10px;
   text-align: left;
   margin-top: 0;
@@ -12,11 +12,11 @@
   margin-left: 0;
   margin-right: 0;
   border: 4px double black;
-  border-radius: 50px;
+  border-radius: 70px;
+  height: fit-content;
   width: 100%;
-  height: 200px;
   margin: 0px 0px;
-  padding: 10px 50px;
+  padding: 10px 10px;
   font-family: "Trattatello,", cursive;
   font-weight: bold;
   font-style: italic;
@@ -26,35 +26,36 @@
 body {
   display: block;
   border-radius: 5%;
-
   background-image: url("images/background/White Charger.jpg");
-  background-size: contain;
-  background-color: green;
-  background-repeat: repeat;
-  background-attachment: scroll;
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: 100%;
   background-position: center;
   border: 5px double red;
   border-radius: 5%;
-  margin-right: 20px;
-  padding: 1%;
+  padding: 10px;
+
 }
 
 h1 {
   display: center;
   background-color: red;
-  opacity: 0.3;
+  background-image: url("./images/icons/gifs/fire-51.webp");
+  opacity: 0.8;
   background-position: center;
-  width: 50%;
+  width: 300px;
+  height: 60px;
   font-size: 30px;
   text-align: center;
   margin-top: 0em;
   margin-bottom: 0em;
-  margin-left: 25%;
+  margin-left: 480px;
   margin-right: 0;
   border: 4px double black;
   border-radius: 15%;
-  padding: 1%;
+  padding: 5px 5px;
   font-weight: bold;
   font-style: italic;
 }
@@ -72,8 +73,8 @@ h2 {
   margin-right: 0;
   border: 4px solid black;
   border-radius: 65px;
-  margin: 0px;
-  padding: 1%;
+  margin: 10px;
+  padding: 5px;
   font-weight: bold;
   font-style: italic;
   color: black;
@@ -106,14 +107,32 @@ h4 {
   background-color: navy;
   background-position: 50px;
   opacity: 0.3;
-  font-size: 3em;
+  font-size: 30px;
   text-align: center;
   margin-top: 0em;
   margin-bottom: 0em;
   margin-left: 0;
   margin-right: 0;
   border: 4px solid black;
-  margin: 40px;
+  padding: 0px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+
+}
+
+h5 {
+  display: block;
+  background-color: navy;
+  background-position: 50px;
+  opacity: 0.3;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  border: 4px solid black;
   padding: 0px;
   font-weight: bold;
   font-style: italic;
@@ -127,13 +146,15 @@ h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
 }
+
 .all-browsers {
   margin: 0;
   padding: 5px;
   background-color: green;
 }
 
-.all-browsers > h1, .browser {
+.all-browsers>h1,
+.browser {
   margin: 10px;
   padding: 5px;
 }
@@ -142,21 +163,12 @@ h6 {
   background: white;
 }
 
-.browser > h2, p {
+.browser>h2,
+p {
   margin: 4px;
   font-size: 90%;
 }
-button nav {
 
-  background-color: pink;
-  color: black;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 10%;
-  border-radius: 30%;
- }
 button {
   background-color: white;
   color: black;
@@ -226,12 +238,15 @@ button:hover {
 }
 
 .btn {
-  background-color: #2196F3;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+  background-color: whitesmoke;
+  height: fit-content;
+  width: fit-content;
+  color: black;
+  padding: 1px;
+  font-size: 6px;
+  border: 4px black;
   outline: none;
+  font-size: 20px;
 }
 
 .dropdown {
@@ -242,22 +257,27 @@ button:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #02dffc;
+  background-color: black;
   background-size: auto;
   border-radius: 40%;
-  min-width: 160px;
+  border: 4px double white;
+  width: fit-content;
+  height: fit-content;
+  font-size: 15px;
+  left: 300px;
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: red;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd
+  background-color: green;
+  border-radius: 10%;
 }
 
 .dropdown:hover .dropdown-content {
@@ -267,4 +287,123 @@ button:hover {
 .btn:hover,
 .dropdown:hover .btn {
   background-color: #0b7dda;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
 }
