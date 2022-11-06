@@ -21,8 +21,8 @@
         href="./Bio.html">About</a>
       <a style="  padding:10px; border-radius:50px;background-color: green;font-size: 20px; color: black;"
         href="https://www.facebook.com/profile.php?id=100006658605536">Contact</a>
-      
-        <br>
+
+      <br>
 
       <input type="text" placeholder="Search..">
       <a style="background-position: top; font-size: 30px; color: white;"
@@ -35,6 +35,11 @@
     </div>
 
     <div class="row">
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
       <div class="column">
         <img src="./images/My Projects/Work_pics/20220718_115318.jpg" alt="Snow" style="width:100%"
           onclick="myFunction(this);">
@@ -54,23 +59,14 @@
         <img src="./images/My Projects/Work_pics/20220504_115336.jpg" alt="Lights" style="width:100%"
           onclick="myFunction(this);">
       </div>
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
     </div>
 
-    <div class="container">
-      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-      <img id="expandedImg" style="width:100%">
-      <div id="imgtext"></div>
-    </div>
 
-    <script>
-      function myFunction(imgs) {
-        var expandImg = document.getElementById("expandedImg");
-        var imgText = document.getElementById("imgtext");
-        expandImg.src = imgs.src;
-        imgText.innerHTML = imgs.alt;
-        expandImg.parentElement.style.display = "block";
-      }
-    </script>
 
   </body>
 
