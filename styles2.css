@@ -1,147 +1,270 @@
 /* Place your CSS styles in this file */
-.topnav{
-   background-attachment:auto;
-   background-color:white;
-   background-position:center;
-   background-size: 200px,400px;
-   font-size: 10px;
-   text-align: left;
-   margin-top: 0;
-   margin-bottom: 0;
-   margin-left: 0;
-   margin-right: 0;
-   border: 4px double black;
-   border-radius: 50px;
-   width: 100%;
-   height: 200px;
-   margin: 5px 10px;
-   padding: 10px 50px;
-   font-family: "Trattatello,", cursive;
-   font-weight: bold;
-   font-style: italic;
+.topnav {
+  background-attachment: fixed;
+  background-image: url("images/icons/gifs/fire-15.gif");
+  background-color: white;
+  background-position: cover;
+  background-size: cover;
+  font-size: 10px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border: 4px double black;
+  border-radius: 50px;
+  width: 100%;
+  height: 200px;
+  margin: 0px 0px;
+  padding: 10px 50px;
+  font-family: "Trattatello,", cursive;
+  font-weight: bold;
+  font-style: italic;
 
 }
 
 body {
-  display:block; border-radius: 5%;
-  
-    background-image: url("images/background/White Charger.jpg");
-    background-size: contain;
-    background-color: green;
-    background-repeat: repeat;
-    background-attachment:fixed;
-    background-size: 100%;
-    background-position: center;
-    border: 5px double red;
-    border-radius: 5%;
-    margin-right: 20px;
-    padding: 1%;
+  display: block;
+  border-radius: 5%;
+
+  background-image: url("images/background/White Charger.jpg");
+  background-size: contain;
+  background-color: green;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+  background-position: center;
+  border: 5px double red;
+  border-radius: 5%;
+  margin-right: 20px;
+  padding: 1%;
 }
+
 h1 {
-    display: center;
-    background-color: red;
-    opacity: 0.3;
-    background-position:center;
-    width: 50%;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    margin-left: 25%;
-    margin-right: 0;
-    border: 4px double black;
-    border-radius:15%;
-    padding: 1%;
-    font-weight: bold;
-    font-style: italic;
-}   
+  display: center;
+  background-color: red;
+  opacity: 0.3;
+  background-position: center;
+  width: 50%;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 25%;
+  margin-right: 0;
+  border: 4px double black;
+  border-radius: 15%;
+  padding: 1%;
+  font-weight: bold;
+  font-style: italic;
+}
+
 h2 {
-        display: center;
-        background-color: red;
-        background-position:50px;
-        background-size: 15px;
-        font-size: 1%em;
-        text-align: center;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        margin-left: 0;
-        margin-right: 0;
-        border: 4px solid black;
-        border-radius:65px;
-        margin: 0px;
-        padding: 1%;
-        font-weight: bold;
-        font-style: italic;
-        color: black;
-        text-transform: capitalize;
-       opacity:0.9;
-     }
-     h3 {
-        display: block;
-        background-color: pink;
-        background-position:50px;
-        opacity: 0.3;
-        font-size: 3em;
-        text-align: center;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        margin-left: 0;
-        margin-right: 0;
-        border: 4px solid black;
-        margin: 0px;
-        padding: 0px;
-        font-weight: bold;
-        font-style: italic;
-        color: white;
-        text-transform: capitalize;
-     }
-     h4 {
-        display: block;
-        background-color: navy;
-        background-position:50px;
-        opacity: 0.3;
-        font-size: 3em;
-        text-align: center;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        margin-left: 0;
-        margin-right: 0;
-        border: 4px solid black;
-        margin: 40px;
-        padding: 0px;
-        font-weight: bold;
-        font-style: italic;
-        color: white;
+  display: center;
+  background-color: red;
+  background-position: 50px;
+  background-size: 15px;
+  font-size: 1%em;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  border: 4px solid black;
+  border-radius: 65px;
+  margin: 0px;
+  padding: 1%;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  text-transform: capitalize;
+  opacity: 0.9;
+}
+
+h3 {
+  display: block;
+  background-color: pink;
+  background-position: 50px;
+  opacity: 0.3;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  border: 4px solid black;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  text-transform: capitalize;
+}
+
+h4 {
+  display: block;
+  background-color: navy;
+  background-position: 50px;
+  opacity: 0.3;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  border: 4px solid black;
+  margin: 40px;
+  padding: 0px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
 
 
-     }
-     h6 {
-      text-align: center;
-      font-family: "Source Sans Pro", sans-serif;
-      font-weight: normal;
-     }
-  button { background-color:white; color: black; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 10%; border-radius: 30%;}  
-   button:hover {   opacity: 0.3; }
-   * {
-     box-sizing: border-box;
-   }
-   /* The grid: Four equal columns that floats next to each other */
-.column {float: left;width: 25%; padding: 10px;}
+}
+
+h6 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: green;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+button nav {
+
+  background-color: pink;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  border-radius: 30%;
+ }
+button {
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  border-radius: 30%;
+}
+
+button:hover {
+  opacity: 0.3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
 /* Style the images inside the grid */
-.column img { opacity: 0.8; cursor: pointer; }
-.column img:hover {opacity: 1;}
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
 /* Clear floats after the columns */
-.row:after {content: "";display: table; clear: both;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* The expanding image container */
-.container { position: relative; display: none;}
+.container {
+  position: relative;
+  display: none;
+}
+
 /* Expanding image text */
-#imgtext { position: absolute; bottom: 15px; left: 15px; color: white; font-size: 20px;}
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
 /* Closable button inside the expanded image */
-.closebtn {position: absolute;top: 10px;right: 15px;color: white;font-size: 35px;cursor: pointer;}
-.btn { background-color: #2196F3; color: white; padding: 16px; font-size: 16px; border: none; outline: none;}
-.dropdown { position: absolute; display: inline-block;}
-.dropdown-content { display: none;position: absolute; background-color: #02dffc;background-size: auto; border-radius: 40%; min-width: 160px;z-index: 1;}
-.dropdown-content a { color: red;padding: 12px 16px;text-decoration: none;display: block;}
-.dropdown-content a:hover {background-color: #ddd}
-.dropdown:hover .dropdown-content {display: block;}
-.btn:hover, .dropdown:hover .btn {background-color: #0b7dda;}
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #02dffc;
+  background-size: auto;
+  border-radius: 40%;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn:hover,
+.dropdown:hover .btn {
+  background-color: #0b7dda;
+}

@@ -1,8 +1,7 @@
-
-.topnav{
-   background-attachment:auto;
-   background-color:white;
-   background-position:auto;
+.topnav {
+   background-attachment: auto;
+   background-color: white;
+   background-position: auto;
    background-size: auto;
    font-size: 1px;
    text-align: left;
@@ -11,7 +10,7 @@
    margin-left: 0;
    margin-right: 0;
    border: 4px double black;
-   border-radius:50px;
+   border-radius: 50px;
    width: 50%;
    height: 5%;
    margin: 5% 10%;
@@ -20,11 +19,12 @@
    font-style: italic;
 
 }
+
 body {
-   background-image: url("./images/backgrounds/White_Charger.jpg");
+   background-image: url("images/icons/gifs/fire-15.gif");
    background-color: green;
    background-repeat: no-repeat;
-   background-attachment:local;
+   background-attachment: local;
    background-size: cover;
    border-right-width: 100%;
    border-bottom: cover;
@@ -32,49 +32,266 @@ body {
    margin: 0%;
    padding: 5%;
 }
-h1 {display: center;background-color: none;background-position:center;font-size: 5%;text-align: center;margin-top: 0em;margin-bottom: 0em;margin-left: 0;margin-right: 0;border: 4px double black;border-radius:15%;margin: 1%;padding: 1%;font-weight: bold; font-style: italic;}   
-h2 {display: center;background-color: red;background-position:50px;background-size: 15px;font-size: 1%em; text-align: center;margin-top: 0em; margin-bottom: 0em;margin-left: 0;margin-right: 0;border: 4px solid black;
-       border-radius:65px; margin: 0px;padding: 1%;font-weight: bold;font-style: italic;color: black;text-transform: capitalize;opacity:0.9;}
-    h3 {display: block;background-color: pink;background-position:50px;opacity: 0.3;font-size: 3em;text-align: center; margin-top: 0em;margin-bottom: 0em; margin-left: 0;margin-right: 0;border: 4px solid black;
-       margin: 0px;padding: 0px;font-weight: bold;font-style: italic;color: white;text-transform: capitalize;}
-    h4 {display: block;background-color: navy;background-position:50px;opacity: 0.3;font-size: 3em; text-align: center; margin-top: 0em; margin-bottom: 0em; margin-left: 0;margin-right: 0;
-       border: 4px solid black;  margin: 40px; padding: 0px;font-weight: bold; font-style: italic;color: white;}
-    h6 {text-align: center;font-family: "Source Sans Pro", sans-serif;font-weight: normal;}
-    
-    body {font-family: Arial, Helvetica, sans-serif;}* {box-sizing: border-box;}
-    /* Full-width input fields */
-    input[type=text], input[type=password] {width: 100%;padding: 15px;margin: 5px 0 22px 0;display: inline-block;border: none;background: white;border:black 5px;}   
-     /* Add a background color when the inputs get focus */
-     input[type=text]:focus, input[type=password]:focus {background-color: #ddd;outline: none;}
-     /* Set a style for all buttons */
-     button {background-color: #04AA6D;color: white;padding: 14px 20px;margin: 8px 0;border: solid black 2px;border-radius:40%; cursor:pointer; width: 40%;opacity: 0.6;}
-     button:hover {opacity:1;} 
-     /* Extra styles for the cancel button */
-     .cancelbtn {position: absolute; right: 15%;top: 25%;padding: 10px 10px;background-color: #f44336;}      
-     /* Float cancel and signup buttons and add an equal width */
-     .cancelbtn, .signupbtn {float: bottom left;width: 30%;margin: 0% auto;}
-     /* Add padding to container elements */
-     .container { padding: 16px; } 
-     /* The Modal (background) */
-     .modal {display: none; /* Hidden by default */ position: fixed; /* Stay in place */z-index: 1; /* Sit on top */left: 0; top: 0;width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto; /* Enable scroll if needed */
-     background-color: #474e5d;padding-top: 50px;} 
-     /* Modal Content/Box */
-     .modal-content { background-color: #fefefe;margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */ border: 1px solid #888; width: 80%; /* Could be more or less, depending on screen size */ }
-     /* Style the horizontal ruler */
-     hr {border: 1px solid #f1f1f1; margin-bottom: 25px;} 
-     /* The Close Button (x) */
-     .close { position: absolute; right: 35px;top: 15px;font-size: 40px;font-weight: bold;color: #f1f1f1; }
-     .close:hover,
-     .close:focus { color: #f44336; cursor: pointer;} 
-     /* Clear floats */
-     .clearfix::after { content: ""; clear: both; display: table;}
-     /* Change styles for cancel button and signup button on extra small screens */
-     @media screen and (max-width: 300px) {.cancelbtn, .signupbtn { width: 100%;}
+
+h1 {
+   display: center;
+   background-color: none;
+   background-position: center;
+   font-size: 5%;
+   text-align: center;
+   margin-top: 0em;
+   margin-bottom: 0em;
+   margin-left: 0;
+   margin-right: 0;
+   border: 4px double black;
+   border-radius: 15%;
+   margin: 1%;
+   padding: 1%;
+   font-weight: bold;
+   font-style: italic;
 }
-.btn { background-color: #2196F3; color: white; padding: 16px; font-size: 16px; border: none; outline: none;}
-.dropdown { position: absolute; display: inline-block;}
-.dropdown-content { display: none;position: absolute; background-color: #02dffc;background-size: auto; border-radius: 40%; min-width: 160px;z-index: 1;}
-.dropdown-content a { color: red;padding: 12px 16px;text-decoration: none;display: block;}
-.dropdown-content a:hover {background-color: #ddd}
-.dropdown:hover .dropdown-content {display: block;}
-.btn:hover, .dropdown:hover .btn {background-color: #0b7dda;}
+
+h2 {
+   display: center;
+   background-color: red;
+   background-position: 50px;
+   background-size: 15px;
+   font-size: 1%em;
+   text-align: center;
+   margin-top: 0em;
+   margin-bottom: 0em;
+   margin-left: 0;
+   margin-right: 0;
+   border: 4px solid black;
+   border-radius: 65px;
+   margin: 0px;
+   padding: 1%;
+   font-weight: bold;
+   font-style: italic;
+   color: black;
+   text-transform: capitalize;
+   opacity: 0.9;
+}
+
+h3 {
+   display: block;
+   background-color: pink;
+   background-position: 50px;
+   opacity: 0.3;
+   font-size: 3em;
+   text-align: center;
+   margin-top: 0em;
+   margin-bottom: 0em;
+   margin-left: 0;
+   margin-right: 0;
+   border: 4px solid black;
+   margin: 0px;
+   padding: 0px;
+   font-weight: bold;
+   font-style: italic;
+   color: white;
+   text-transform: capitalize;
+}
+
+h4 {
+   display: block;
+   background-color: navy;
+   background-position: 50px;
+   opacity: 0.3;
+   font-size: 3em;
+   text-align: center;
+   margin-top: 0em;
+   margin-bottom: 0em;
+   margin-left: 0;
+   margin-right: 0;
+   border: 4px solid black;
+   margin: 40px;
+   padding: 0px;
+   font-weight: bold;
+   font-style: italic;
+   color: white;
+}
+
+h6 {
+   text-align: center;
+   font-family: "Source Sans Pro", sans-serif;
+   font-weight: normal;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+   width: 100%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border: none;
+   background: white;
+   border: black 5px;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+   background-color: #04AA6D;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: solid black 2px;
+   border-radius: 40%;
+   cursor: pointer;
+   width: 40%;
+   opacity: 0.6;
+}
+
+button:hover {
+   opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+   position: absolute;
+   right: 15%;
+   top: 25%;
+   padding: 10px 10px;
+   background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+   float: bottom left;
+   width: 30%;
+   margin: 0% auto;
+}
+
+/* Add padding to container elements */
+.container {
+   padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+   display: none;
+   /* Hidden by default */
+   position: fixed;
+   /* Stay in place */
+   z-index: 1;
+   /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%;
+   /* Full width */
+   height: 100%;
+   /* Full height */
+   overflow: auto;
+   /* Enable scroll if needed */
+   background-color: #474e5d;
+   padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+   background-color: #fefefe;
+   margin: 5% auto 15% auto;
+   /* 5% from the top, 15% from the bottom and centered */
+   border: 1px solid #888;
+   width: 80%;
+   /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+   position: absolute;
+   right: 35px;
+   top: 15px;
+   font-size: 40px;
+   font-weight: bold;
+   color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+   color: #f44336;
+   cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+   .cancelbtn,
+   .signupbtn {
+      width: 100%;
+   }
+}
+
+.btn {
+   background-color: #2196F3;
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   outline: none;
+}
+
+.dropdown {
+   position: absolute;
+   display: inline-block;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #02dffc;
+   background-size: auto;
+   border-radius: 40%;
+   min-width: 160px;
+   z-index: 1;
+}
+
+.dropdown-content a {
+   color: red;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+.dropdown-content a:hover {
+   background-color: #ddd
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.btn:hover,
+.dropdown:hover .btn {
+   background-color: #0b7dda;
+}
