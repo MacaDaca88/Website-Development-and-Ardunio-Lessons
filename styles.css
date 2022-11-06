@@ -1,24 +1,23 @@
 
 .topnav{
-  background-attachment:top;
-  background-color:white;
-  background-position:top;
-  background-size: 5%;
-  font-size: 5%;
-  text-align: center;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  margin-left: 0;
-  margin-right: 0;
-  border: 4px double black;
-  border-radius:50px;
-
-  width: 100%;
-  height: 5%;
-  margin: 0% 0%;
-  padding: 1% 2%;
-  font-weight: bold;
-  font-style: italic;
+   background-attachment:auto;
+   background-color:white;
+   background-position:auto;
+   background-size: auto;
+   font-size: 1px;
+   text-align: left;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   margin-left: 0;
+   margin-right: 0;
+   border: 4px double black;
+   border-radius:50px;
+   width: 50%;
+   height: 5%;
+   margin: 5% 10%;
+   padding: 5% 5%;
+   font-weight: bold;
+   font-style: italic;
 
 }
 body {
@@ -33,7 +32,7 @@ body {
    margin: 0%;
    padding: 5%;
 }
-h1 {display: center;background-color: none;background-position:center;font-size: 2%;text-align: center;margin-top: 0em;margin-bottom: 0em;margin-left: 0;margin-right: 0;border: 4px double black;border-radius:15%;margin: 1%;padding: 1%;font-weight: bold; font-style: italic;}   
+h1 {display: center;background-color: none;background-position:center;font-size: 5%;text-align: center;margin-top: 0em;margin-bottom: 0em;margin-left: 0;margin-right: 0;border: 4px double black;border-radius:15%;margin: 1%;padding: 1%;font-weight: bold; font-style: italic;}   
 h2 {display: center;background-color: red;background-position:50px;background-size: 15px;font-size: 1%em; text-align: center;margin-top: 0em; margin-bottom: 0em;margin-left: 0;margin-right: 0;border: 4px solid black;
        border-radius:65px; margin: 0px;padding: 1%;font-weight: bold;font-style: italic;color: black;text-transform: capitalize;opacity:0.9;}
     h3 {display: block;background-color: pink;background-position:50px;opacity: 0.3;font-size: 3em;text-align: center; margin-top: 0em;margin-bottom: 0em; margin-left: 0;margin-right: 0;border: 4px solid black;
@@ -72,44 +71,10 @@ h2 {display: center;background-color: red;background-position:50px;background-si
      /* Change styles for cancel button and signup button on extra small screens */
      @media screen and (max-width: 300px) {.cancelbtn, .signupbtn { width: 100%;}
 }
-.btn {
- background-color: #2196F3;
- color: white;
- padding: 16px;
- font-size: 16px;
- border: none;
- outline: none;
-}
-
-.dropdown {
- position: absolute;
- display: inline-block;
-}
-
-.dropdown-content {
- display: none;
- position: absolute;
- background-color: #02dffc;
- background-size: auto;
- border-radius: 40%;
-
- min-width: 160px;
- z-index: 1;
-}
-
-.dropdown-content a {
- color: red;
- padding: 12px 16px;
- text-decoration: none;
- display: block;
-}
-
+.btn { background-color: #2196F3; color: white; padding: 16px; font-size: 16px; border: none; outline: none;}
+.dropdown { position: absolute; display: inline-block;}
+.dropdown-content { display: none;position: absolute; background-color: #02dffc;background-size: auto; border-radius: 40%; min-width: 160px;z-index: 1;}
+.dropdown-content a { color: red;padding: 12px 16px;text-decoration: none;display: block;}
 .dropdown-content a:hover {background-color: #ddd}
-
-.dropdown:hover .dropdown-content {
- display: block;
-}
-
-.btn:hover, .dropdown:hover .btn {
- background-color: #0b7dda;
-}
+.dropdown:hover .dropdown-content {display: block;}
+.btn:hover, .dropdown:hover .btn {background-color: #0b7dda;}

@@ -2,49 +2,55 @@
 .topnav{
    background-attachment:auto;
    background-color:white;
-   background-position:auto;
-   background-size: auto;
-   font-size: 1px;
+   background-position:center;
+   background-size: 200px,400px;
+   font-size: 10px;
    text-align: left;
-   margin-top: 0%;
-   margin-bottom: 0%;
+   margin-top: 0;
+   margin-bottom: 0;
    margin-left: 0;
    margin-right: 0;
    border: 4px double black;
-   border-radius:50px;
-   width: 50%;
-   height: 5%;
-   margin: 5% 10%;
-   padding: 5% 5%;
+   border-radius: 50px;
+   width: 100%;
+   height: 200px;
+   margin: 5px 10px;
+   padding: 10px 50px;
+   font-family: "Trattatello,", cursive;
    font-weight: bold;
    font-style: italic;
 
 }
 
 body {
+  display:block; border-radius: 5%;
+  
     background-image: url("images/background/White Charger.jpg");
-    background-size: auto;
+    background-size: contain;
     background-color: green;
-    background-repeat: no-repeat;
-    background-attachment:local;
+    background-repeat: repeat;
+    background-attachment:fixed;
     background-size: 100%;
-    border: 10px double red;
-    margin: 0%;
-    padding: 5%;
+    background-position: center;
+    border: 5px double red;
+    border-radius: 5%;
+    margin-right: 20px;
+    padding: 1%;
 }
 h1 {
     display: center;
-    background-color: none;
+    background-color: red;
+    opacity: 0.3;
     background-position:center;
-    font-size: 2%em;
+    width: 50%;
+    font-size: 30px;
     text-align: center;
     margin-top: 0em;
     margin-bottom: 0em;
-    margin-left: 0;
+    margin-left: 25%;
     margin-right: 0;
     border: 4px double black;
     border-radius:15%;
-    margin: 1%;
     padding: 1%;
     font-weight: bold;
     font-style: italic;
@@ -120,50 +126,22 @@ h2 {
      box-sizing: border-box;
    }
    /* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-
+.column {float: left;width: 25%; padding: 10px;}
 /* Style the images inside the grid */
-.column img {
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
+.column img { opacity: 0.8; cursor: pointer; }
+.column img:hover {opacity: 1;}
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
+.row:after {content: "";display: table; clear: both;}
 /* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
+.container { position: relative; display: none;}
 /* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
+#imgtext { position: absolute; bottom: 15px; left: 15px; color: white; font-size: 20px;}
 /* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
+.closebtn {position: absolute;top: 10px;right: 15px;color: white;font-size: 35px;cursor: pointer;}
+.btn { background-color: #2196F3; color: white; padding: 16px; font-size: 16px; border: none; outline: none;}
+.dropdown { position: absolute; display: inline-block;}
+.dropdown-content { display: none;position: absolute; background-color: #02dffc;background-size: auto; border-radius: 40%; min-width: 160px;z-index: 1;}
+.dropdown-content a { color: red;padding: 12px 16px;text-decoration: none;display: block;}
+.dropdown-content a:hover {background-color: #ddd}
+.dropdown:hover .dropdown-content {display: block;}
+.btn:hover, .dropdown:hover .btn {background-color: #0b7dda;}
