@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html lang="en-NZ">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="./images/icons/Bulb-Loading-1.gif">
         <link rel="stylesheet" type="text/css" href="styles2.css">
         <link rel="script" type="text/js" href="scripts.js">
-    <title>Display Webcam Stream</title>
-    <style>
-        #container {
-            margin: 0px auto;
-            width: 500px;
-            height: 375px;
-            border: 10px #333 solid;
-        }
-        #videoElement {
-            width: 500px;
-            height: 375px;
-            background-color: #666;
-                    }
-        
-    </style>
+        <title>Display Webcam Stream</title>
     </head>
+
     <body>
-        <div class="popup" onclick="myFunction()">Click me!
-            <span class="popuptext" id="myPopup">Popup text...</span>
+        <title>H3LL &#128286;</title>
+
+        <div class="topnav">
+          <a href="./Index.html">Home</a>
+          <a href="./p2.html">Projectlinks</a>
+          <a href="./my_pics.html">Photos</a>
+          <a href="./Bio.html">About</a>
+          <a href="https://www.facebook.com/profile.php?id=100006658605536">Contact</a>
+          <a href="./Webcam_stream.html">Stream</a>
+          <div class="text">
+            <input type="text" placeholder="Search.....">
           </div>
+          <button class="button nav">submit</button><a href="www.google.com">
+          </a>
+    
+          <div class="dropdown">
+            <button class="btn">Social Links</button>
+            <i class="fa fa-caret-down"></i>
+            </button>
+    
+            <div class="dropdown-content">
+              <a href="https://github.com/MacaDaca88;">MacaDaca88 GitHub</a>
+              <a href="https://www.facebook.com/profile.php?id=100006658605536">MacaDaca88 FaceBook</a>
+            </div>
+            <div class="topnav2">
+              <a style="font-size:35px;" href="./R18.html">&#128286;</a>
+              <a style="display:center;font-size:50px;">&#128585;&#128584;&#128586;</a>
+            </div>
+          </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="popup" onclick="myFunction()">Click me!
+            <span class="popuptext" id="myPopup">Click To Reveal</span>
+        </div>
+        <br>
         <div id="container">
             <video autoplay="true" id="videoElement">
-
 
             </video>
 
         </div>
-        <script>
-var video = document.querySelector("#videoElement");
-if (navigator.mediaDevices.getUserMedia) {
-    navigator.mediaDevices.getUserMedia({ video: true})
-    .then(function (stream) {
-        video.srcObject = stream;
-    })
-    .catch(funcation (errOr) {console.log("Something went wrong!");
-});
-}
-
-        </script>
     </body>
-    </html>
+
+</html>

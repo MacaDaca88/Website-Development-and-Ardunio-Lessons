@@ -29,3 +29,21 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+var video = document.querySelector("#videoElement");
+if (navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia({ video: true})
+    .then(function (stream) {
+        video.srcObject = stream;
+    })
+    .catch(funcation (errOr) {console.log("Something went wrong!");
+});
+}
+function myFunction(R18) {
+    var txt;
+    if (confirm("Press a button!")) {
+      txt = "You pressed OK!";
+    } else {
+      txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+  }

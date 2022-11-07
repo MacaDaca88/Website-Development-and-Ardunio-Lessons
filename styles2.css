@@ -21,10 +21,11 @@
   font-style: italic;
 
 }
+
 .topnav2 {
   background-attachment: scroll;
   background-image: url("");
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   background-position: right;
   background-size: contain;
   font-size: 10px;
@@ -37,7 +38,7 @@
   border-radius: 20px;
   height: auto;
   width: auto;
-  
+
   margin: 0px 0px;
   padding: 5px 5px;
   font-family: "Trattatello,", cursive;
@@ -45,6 +46,30 @@
   font-style: italic;
 
 }
+
+text {
+
+  display: center;
+  background-color: red;
+  background-image: url("./images/icons/gifs/fire-51.webp");
+  opacity: 1.0;
+  background-position: center;
+  width: 300px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  border: 4px double black;
+  border-radius: 15%;
+  padding: 5px 5px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
 body {
   display: block;
   background-image: url("images/background/White Charger.jpg");
@@ -146,7 +171,7 @@ h4 {
 h5 {
   display: block;
   background-color: grey;
-  background-position:100px;
+  background-position: 100px;
   background-size: cover;
   height: 200px;
   opacity: 0.7;
@@ -237,240 +262,295 @@ button:hover {
   clear: both;
 }
 
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
-
-.btn {
-  background-color: whitesmoke;
-  height: fit-content;
-  width: fit-content;
-  color: black;
-  padding: 1px;
-  font-size: 6px;
-  border: 4px black;
-  outline: none;
-  font-size: 20px;
-}
-
-.dropdown {
-  position: absolute;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  background-size: auto;
-  border-radius: 40%;
-  border: 4px double white;
-  width: fit-content;
-  height: fit-content;
-  font-size: 15px;
-  right: 300px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: green;
-  border-radius: 10%;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.btn:hover,
-.dropdown:hover .btn {
-  background-color: #0b7dda;
-}
-
-/* Full-width input fields */
-input[type=text],
-input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
+div.gallery {
+  margin: 5px;
   border: 1px solid #ccc;
-  box-sizing: border-box;
+  float: left;
+  width: 180px;
 }
 
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
+div.gallery:hover {
+  border: 1px solid #777;
 }
 
-img.avatar {
-  width: 40%;
-  height: 40%;
-  border-radius: 20%;
-  background-image: url("./images/icons/gifs/xBL-02-660x439.jpg.pagespeed.ic.rdzlXrOcka.jpeg");
-}
-
-.container {
-  padding: 16px;
-  background: rgba(0, 0, 0, 0.4)
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
+div.gallery img {
   width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.1);
-  padding-top: 60px;
+  height: auto;
 }
 
-/* Modal Content/Box */
-.modal-content {
-  background-color: rgba(0, 0, 0, 0.4);
-  margin: 2px auto auto;
-  border: 1px dashed red;
-  border-top-left-radius: 30%;
-  border-top-right-radius: 30%;
-  width: 40%;
-
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {
-    -webkit-transform: scale(0)
-  }
-
-  to {
-    -webkit-transform: scale(1)
-  }
-}
-
-@keyframes animatezoom {
-  from {
-    transform: scale(0)
-  }
-
-  to {
-    transform: scale(1)
-  }
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-
-  .cancelbtn {
-    width: 100%;
-  }
-}
-/* Popup container */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
+div.desc {
+  padding: 15px;
   text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
 
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
 
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
+  .expandedImg {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
 
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
+  }
 
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .btn {
+    background-color: whitesmoke;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    padding: 1px;
+    font-size: 6px;
+    border: 4px black;
+    outline: none;
+    font-size: 20px;
+  }
+
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    background-size: auto;
+    border-radius: 40%;
+    border: 4px double white;
+    width: fit-content;
+    height: fit-content;
+    font-size: 15px;
+    right: 300px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: green;
+    border-radius: 10%;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .btn:hover,
+  .dropdown:hover .btn {
+    background-color: #0b7dda;
+  }
+
+  /* Full-width input fields */
+  input[type=text],
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+
+  img.avatar {
+    width: 40%;
+    height: 40%;
+    border-radius: 20%;
+    background-image: url("./images/icons/gifs/xBL-02-660x439.jpg.pagespeed.ic.rdzlXrOcka.jpeg");
+  }
+
+  .container {
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.4)
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 60px;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 2px auto auto;
+    border: 1px dashed red;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 40%;
+
+  }
+
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+
+  @-webkit-keyframes animatezoom {
+    from {
+      -webkit-transform: scale(0)
+    }
+
+    to {
+      -webkit-transform: scale(1)
+    }
+  }
+
+  @keyframes animatezoom {
+    from {
+      transform: scale(0)
+    }
+
+    to {
+      transform: scale(1)
+    }
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  /* Popup container */
+  .popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: visable;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: hidden;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  #container {
+    margin: 0px auto;
+    width: 500px;
+    height: 375px;
+    border: 10px #333 solid;
+  }
+
+  #videoElement {
+    width: 500px;
+    height: 375px;
+    background-color: #666;
+  }
