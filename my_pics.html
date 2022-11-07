@@ -28,45 +28,50 @@
       <a style="background-position: top; font-size: 30px; color: white;"
         href="https://www.google.com/search?q=Google&oq=Google&aqs=chrome..69i57j69i65j69i60l2j69i65j69i60j35i39j0i273i433l2j46i131i199i433i465i512.5393j0j4&client=ms-android-samsung-gj-rev1&sourceid=chrome-mobile&ie=UTF-8"></a>
       <button>submit</button>
-    </div>
-    <div style="text-align:center">
-      <h2> Image Gallery</h2>
-      <p>Click on the images below:</p>
-    </div>
 
-    <div class="row">
-      <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <img id="expandedImg" style="width:100%">
-        <div id="imgtext"></div>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img_5terre.jpg">
+            <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
       </div>
-      <div class="column">
-        <img src="./images/My Projects/Work_pics/20220718_115318.jpg" alt="Snow" style="width:100%"
-          onclick="myFunction(this);">
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img_forest.jpg">
+            <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
       </div>
-
-      <div class="column">
-        <img src="./images/My Projects/Work_pics/20220713_153633.jpg" alt="Lights" style="width:100%"
-          onclick="myFunction(this);">
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img_lights.jpg">
+            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
       </div>
-
-      <div class="column">
-        <img src="./images/My Projects/Work_pics/20220517_124746.jpg" alt="Lights" style="width:100%"
-          onclick="myFunction(this);">
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img_mountains.jpg">
+            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
       </div>
-
-      <div class="column">
-        <img src="./images/My Projects/Work_pics/20220504_115336.jpg" alt="Lights" style="width:100%"
-          onclick="myFunction(this);">
+      
+      <div class="clearfix"></div>
+      
+      <div style="padding:6px;">
+        <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+        <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
       </div>
-      <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <img id="expandedImg" style="width:100%">
-        <div id="imgtext"></div>
-      </div>
-    </div>
-
-
 
   </body>
 

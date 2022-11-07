@@ -30,7 +30,7 @@ if (navigator.mediaDevices.getUserMedia) {
     .catch(funcation (errOr) {console.log("Something went wrong!");
 });
 }
-function myFunction(R18) {
+function myFunction("R18") {
     var txt;
     if (confirm("Press a button!")) {
       txt = "You pressed OK!";
