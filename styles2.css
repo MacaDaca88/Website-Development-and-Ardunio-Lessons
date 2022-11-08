@@ -1,10 +1,10 @@
 .topnav {
   background-attachment: fixed;
-  background-image: url("./images/icons/gifs/fire-15.gif");
+  background-image: url("");
   background-color: white;
   background-position: center;
   background-size: auto;
-  font-size: 20px;
+  font-size: 50px;
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
@@ -19,6 +19,8 @@
   font-family: "Trattatello,", cursive;
   font-weight: bold;
   font-style: italic;
+
+  
 
 }
 
@@ -42,27 +44,11 @@
   font-family: "Trattatello,", cursive;
   font-weight: bold;
   font-style: italic;
-
+  position: sticky;
 }
 
 .text {
 
-  display: center;
-  background-color: red;
-  background-image: url("./images/icons/gifs/fire-51.webp");
-  opacity: 1.0;
-  background-position: center;
-  width: 300px;
-  height: 60px;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  margin-left: 0;
-  margin-right: 0;
-  border: 4px double black;
-  border-radius: 15%;
-  padding: 5px 5px;
   font-weight: bold;
   font-style: italic;
 
@@ -310,8 +296,8 @@ div.desc {
 
   .btn {
     background-color: whitesmoke;
-    height: fit-content;
-    width: fit-content;
+    height: 10px;
+    width: 10px;
     color: black;
     padding: 1px;
     font-size: 6px;
@@ -326,7 +312,7 @@ div.desc {
   }
 
   .dropdown-content {
-    display: none;
+    display: hidden;
     position: absolute;
     background-color: black;
     background-size: auto;
@@ -335,7 +321,7 @@ div.desc {
     width: auto;
     height: auto;
     font-size: 15px;
-    right: 30px;
+    left: 30px;
     z-index: 1;
   }
 
@@ -551,4 +537,86 @@ div.desc {
     width: 500px;
     height: 375px;
     background-color: #666;
+  }
+  .topnav {
+    overflow: hidden;
+    display: inline-block;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: bisque;
+    background-size: 100%;
+    width: 100%;
+    height: 15%;
+    margin-top: 1%;
+    border: 5px solid black;
+    border-radius: 20%;
+    opacity: 0.9;
+    font-size: 20px;
+    background-color: #e9e9e9;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    opacity: 1.0;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .login-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width:120px;
+  }
+  
+  .topnav .login-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: #555;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .login-container button:hover {
+    background-color: green;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .login-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
   }
