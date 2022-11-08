@@ -360,7 +360,7 @@ div.desc {
   }
 
   .dropdown-content {
-    display: hidden;
+    display: none;
     position: absolute;
     background-color: black;
     background-size: auto;
