@@ -8,11 +8,11 @@ function myFunction(imgs) {
 }
 // When the user clicks on div, open the popup
 function myFunction() {
-    var popup = document.getElementById("Popup");
+    var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
 }
 // Get the modal
-var modal = document.getElementById('id01');
+var modal = document.getElementById('signup');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
@@ -29,4 +29,7 @@ if (navigator.mediaDevices.getUserMedia) {
     })
     .catch(funcation (errOr) {console.log("Something went wrong!");
 });
+}
+function R18alert() {
+alert("im a test");
 }

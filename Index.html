@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="./images/icons/Bulb-Loading-1.gif">
+  <link rel="icon" href="./images/icons/gifs/Bulb-Loading-1.gif">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" type="text/css" href="styles2.css">
   <link rel="script" type="text/js" href="scripts.js">
@@ -14,59 +14,59 @@
 <body>
   <title>H3LL &#128286;</title>
   <div class="topnav">
-    <div class="fa-caret-down">
-      <div class="text">
-        <a class="active" href="./Index.html">Home</a>
-        <a href="./p2.html">Projectlinks</a>
-        <a href="./my_pics.html">Photos</a>
-        <a href="./Bio.html">About</a>
-        <a href="https://www.facebook.com/profile.php?id=100006658605536">Contact</a>
-        <a href="./Webcam_stream.html">Stream</a>
-        <div>
+    <div class="text">
+      <a class="active" href="./Index.html">Home</a>
+      <a href="./p2.html">Projectlinks</a>
+      <a href="./my_pics.html">Photos</a>
+      <a href="./Bio.html">About</a>
+      <a href="https://www.facebook.com/profile.php?id=100006658605536">Contact</a>
+      <a href="./Webcam_stream.html">Stream</a>
+      <div>
         <a href="./R18.html">&#128286;</a>
         <a>&#128585;&#128584;&#128586;</a>
-        </div>
-        <input type="text" placeholder="Search.....">
-        <div class="login-container">
-          <form action="/action_page.php">
-            <input type="text" placeholder="Username" name="username">
-            <input type="text" placeholder="Password" name="psw">
-            <button type="submit" href="./action.php">Login</button>
-          </form>
+      </div>
+      <input type="text" placeholder="Search.....">
+      <div class="dropdown">
+        <button class="btn">Social Links</button>
+        <i class="fa fa-caret-down"></i>
+        </button>
+
+        <div class="dropdown-content">
+          <a href="https://github.com/MacaDaca88;">GitHub</a>
+          <a href="https://www.facebook.com/profile.php?id=100006658605536">FaceBook</a>
         </div>
       </div>
-    </div>
-
-    <div class="dropdown">
-      <button class="btn">Social Links</button>
-      <i class="fa fa-caret-down"></i>
-      </button>
-
-      <div class="dropdown-content">
-        <a href="https://github.com/MacaDaca88;">MacaDaca88 GitHub</a>
-        <a href="https://www.facebook.com/profile.php?id=100006658605536">MacaDaca88 FaceBook</a>
+      <div class="login-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Username" name="username">
+          <input type="text" placeholder="Password" name="psw">
+          <button type="submit" href="./action.php">Login</button>
+        </form>
       </div>
     </div>
   </div>
-  <br> <br>
+  <button onclick="alert(this.innerHTML)"
+    style="font-size:50px;border-radius:30%;color:pink;background-color:green;text-align:center;background-position:absolute;left: 200px;">Click
+    me</button>
   <br>
-  <br>
-  <br>
-  <br>
+
+  </div>
   <br>
   <i class="material-icons"> hot_tub</i>
-  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+  <button onclick="document.getElementById('signup').style.display='block'"
+    style="width:50px;padding: 5px 5px;text-align: center;">Login</button>
 
-  <div id="id01" class="modal">
+  <div id="signup" class="modal">
 
-    <form class="modal-content animate" action="/action.php" method="post">
+    <form class="modal-content animate" action="/action.php" target="_blank" method="post">
       <div class="imgcontainer">
-        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+        <span onclick="document.getElementById('event').style.display='none'" class="close"
           title="Close Modal">&times;</span>
         <img src="./images/icons/gifs/xBL-02-660x439.jpg.pagespeed.ic.rdzlXrOcka.jpeg" alt="Avatar" class="avatar">
       </div>
-
+      <h6>Login To Continue</h6>
       <div class="container">
+
         <label for="uname"><b>Username</b></label>
         <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -80,21 +80,22 @@
       </div>
 
       <div class="container" style="background-color:#f1f1f1">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+        <button type="button" onclick="document.getElementById('signup').style.display='none'"
           class="cancelbtn">Cancel</button>
         <span class="psw">Forgot <a href="#">password?</a></span>
       </div>
     </form>
   </div>
 
-  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+  <button onclick="document.getElementById('signup').style.display='block'"
+    style="width:70px;padding: 5px 5px;text-align: center;">Sign Up</button>
 
-  <div id="id01" class="modal">
-    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+  <div id="signup" class="modal">
+    <span onclick="document.getElementById('signup').style.display='none'" class="close"
       title="Close Modal">&times;</span>
     <form class="modal-content" action="/action_page.php">
       <div class="container">
-        <h1>Sign Up</h1>
+        <h6>Sign Up To Continue</h6>
         <p>Please fill in this form to create an account.</p>
         <hr>
         <label for="email"><b>Email</b></label>
@@ -114,59 +115,63 @@
         </p>
 
         <div class="clearfix">
-          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+          <button type="button" onclick="document.getElementById('signup').style.display='none'"
             class="cancelbtn">Cancel</button>
           <button type="submit" class="signupbtn">Sign Up</button>
         </div>
       </div>
     </form>
   </div>
-
-  </div>
-  <div>
-
-    <br>
-    <br>
-    <section>
-      <div>
-        <a style="font-size:40px; color:gold;" href="https://www.w3schools.com">www.w3schools.com</a>
-        <p style="font-size:px; color:gold;"> All credit goes to w3schools.com your website is awsome in learning
-          how to do this so hopefully my kids will try and learn it instead of playing games.</p>
-      </div>
+  <br>
+  <br>
+  <div class="picscon">
+    <div class="w3schools">
+      <a style="font-size:40px; color:gold;" href="https://www.w3schools.com">www.w3schools.com</a>
+      <p style="font-size:px; color:gold;"> All credit goes to w3schools.com your website is awsome in learning
+        how to do this so hopefully my kids will try and learn it instead of playing games.</p>
+    </div>
+    <div class="flexing">
+      <h4>This website is built for shits and
+        giggles, to flex how good i can be when i put my mind to somthing i havnt done any HTML editing for over
+        20yrs so this is going to be fun and hopefully my kids Ayla especially is taking great interest so let
+        the
+        fun begin.</h4>
+    </div>
     </section>
-    <h1>Welcome To H3LL</h1>
     <article>
       <div class="">
-        <h4>This website is built for shits and
-          giggles, to flex how good i can be when i put my mind to somthing i havnt done any HTML editing for over
-          20yrs so this is going to be fun and hopefully my kids Ayla especially is taking great interest so let
-          the
-          fun begin.</h4>
+
+
         <h5>I have self taught alot of thign and this being one google is a wonderfulplace if you can read and
           keep
           reading never belive th efirst answer as they may be wrong just like you have been.
           i have lernt solidworksworks 3d drawings 12v electrical sytems engine rebuilds i can do
-          alot....................................................................
+          alot............................
           NO- one said i actualy finished anything or ina normal time if i do complete but it will be in my own
           unige
           way and it works the same if it works it works.
           blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
           blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah well that was fun </h5>
-      </div>
     </article>
+  </div>
+  <img
+    src="https://github.com/MacaDaca88/Website-Development-and-Ardunio-Lessons/blob/7667ab1027d1bdb337a6a2ad82d9799ebc6a477c/images/Restricted%20Access/R18/Gifs/bounce-boobs.gif">
 
-    <br>
 
+  <br>
+  <div class="pics">
     <a href="https://www.google.com/search?q=cowpoo&sxsrf=ALiCzsbQkRM0H5M7xs4uyKae15GYZj2exQ:1667375874819&source=lnms&tbm=isch&sa=X&ved=2ahUKEwie0eaVg4_7AhUG6jgGHdt_BcIQ_AUoAXoECAIQAw&biw=1680&bih=907&dpr=1#imgrc=dpptY_QIkZ5_bM"
-      style="font-size: 100px; text-align:center; display:block;">
+      style="font-size: 100px; text-align:left; display:inline-block;background-position: fixed;">
       <p>&#128169; </p>
     </a>
     <a
       href="https://www.google.com/search?q=Google&oq=Google&aqs=chrome..69i57j69i65j69i60l2j69i65j69i60j35i39j0i273i433l2j46i131i199i433i465i512.5393j0j4&client=ms-android-samsung-gj-rev1&sourceid=chrome-mobile&ie=UTF-8">
-      <img src="images/background/Life.jpg" alt="Life meme">
+      <img src="images/background/Life.jpg" alt="Life meme"
+        style="border: 5px solid pink;width: 350px; height: auto;position: relative;left: 200px;">
     </a>
     <br>
     <br>
+  </div>
   </div>
   <footer>
     <div class="footer">
@@ -179,8 +184,10 @@
         <audio controls>
           <source src="https://icecast.mediaworks.nz/PulzarFM">
         </audio>
+      </b>
+    </div>
   </footer>
-  </div>
+
 </body>
 
 </html>
