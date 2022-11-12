@@ -625,3 +625,27 @@ span.psw {
   grid-column-end: 3;
   grid-template-areas: "header" "a" "f";
 }
+
+.formcontainer  {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.form_control {
+display:flex;
+flex-direction: column;
+
+}
+.button_container {
+display: flex;
+justify-content: flex-end;
+margin-top: 20px;
+
+}
+.buttron :hover {
+
+  color: green;
+}

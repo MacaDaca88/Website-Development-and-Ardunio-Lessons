@@ -100,5 +100,12 @@ echo "<br>";
 echo $gender;
 ?>
 
+<?phpif(isset($_GET["data"]) && isset($_GET["data"]))
+{
+  $data = $_GET["data"];
+  $data2 = $_GET["data2"];
+
+}
+?>
 </body>
 </html>
