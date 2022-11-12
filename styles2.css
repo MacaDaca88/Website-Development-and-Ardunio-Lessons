@@ -193,16 +193,19 @@ h3 {
 
 h4 {
   display: inline-block;
-  background-color: rgba(109, 107, 80, 0.5);
-  background-position: center;
+  background-image: url("");
+  background-color: rgb(143, 143, 143);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
   opacity: 0.9;
   height: auto;
-  width: 50%;
+  width: 100%;
   font-size: 20px;
   text-align: center;
   margin-top: 0%;
   margin-bottom: 0%;
-  margin-left: 50%;
+  margin-left: 0%;
   margin-right: 0;
   border: 4px solid black;
   padding: 0px;
@@ -300,7 +303,11 @@ button:hover {
   opacity: 1;
   box-shadow: 30px 10px 5px black;
 }
-
+.row {
+  float: top;
+  width: 25%;
+  padding: 10px;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -308,13 +315,38 @@ button:hover {
   clear: both;
 }
 
-.gallery {
+.gallerymason {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   width: 25%;
+  border-radius: 5%;
 }
-
+.gallerymason2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 25%;
+  border-radius: 5%;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  border-radius: 5%;
+  float: left;
+  width: 25%;
+}
+.gallery .content {
+	padding: 4px;
+  border-radius: 5%;
+  }
+  .gallery .gallery-item {
+	transition: grid-row-start 300ms linear;
+	transition: transform 300ms ease;
+	transition: all 0.5s ease;
+	cursor: pointer;
+  }
 div.gallery:hover {
   border: 1px solid #777;
   box-shadow: 30px 10px 5px black;
@@ -326,6 +358,11 @@ div.gallery img {
 }
 
 div.desc {
+  display: block;
+  background-color:  white;
+  background-size: auto;
+  border-radius: 20%;
+  margin: 2%;
   padding: 15px;
   text-align: center;
 }
@@ -648,4 +685,10 @@ margin-top: 20px;
 .buttron :hover {
 
   color: green;
+}
+
+.footer {
+background-position: absolute;
+background-size: 100%;
+
 }
