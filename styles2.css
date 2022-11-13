@@ -110,8 +110,8 @@
 
 body {
   display: block;
-  background-image: url("");
-  background-color: rgb(143, 143, 143);
+  background-image: url("./6297d115140a99aa04db5c9f(2).png");
+  background-color: rgb(71, 76, 77);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -336,6 +336,29 @@ button:hover {
   border-radius: 5%;
   float: left;
   width: 25%;
+}
+.promo {
+  display:block;
+  background-image: url("");
+  background-color: rgb(143, 143, 143);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  opacity: 0.9;
+  height: auto;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0;
+  border: 4px solid black;
+  padding: 0px;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+
 }
 .gallery .content {
 	padding: 4px;
