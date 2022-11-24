@@ -217,13 +217,15 @@ h4 {
 
 h5 {
   display: inline-block;
-  background-color: grey;
-  background-position: center;
-  height: auto;
-  opacity: 0.7;
+  background-image: url("");
+  background-color: rgb(143, 143, 143);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  opacity: 0.9;
   font-size: 12px;
   text-align: center;
-  width: 200px;
+  width: 100%;
   margin-top: 0em;
   margin-bottom: 0em;
   margin-left: 0;
